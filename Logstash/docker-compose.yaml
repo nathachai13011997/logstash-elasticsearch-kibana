@@ -1,0 +1,26 @@
+version: '3.6'
+
+networks:
+  ela:
+
+services:
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.8.1
+    container_name: logstash
+    networks:
+      - ela
+    volumes:
+      - "./data:/usr/share/logstash/data"
+      # - "./logstash.conf:/usr/share/logstash/pipeline/logstash.conf"
+      - "./pipeline:/usr/share/logstash/pipeline"
+      - "./pattern:/usr/share/logstash/pattern"
+      - "./config/pipelines.yml:/usr/share/logstash/config/pipelines.yml"
+      - "./input:/usr/share/logstash/input"
+      - "./output:/usr/share/logstash/output"
+    environment:
+      - XPACK_MONITORING_ENABLED=false
+      - config.reload.automatic=true
+      
+    ports:
+      - '8080:8080'
+      - '8081:8081'

@@ -1,0 +1,20 @@
+### _bulk ###
+curl localhost:9200/banktest/_bulk -H content-type:application/x-ndjson --data-binary "@data.ndjson"
+
+curl localhost:9200/accounts/_bulk -H content-type:application/x-ndjson --data-binary "@accounts.ndjson"
+
+curl localhost:9200/orders/_bulk -H content-type:application/x-ndjson --data-binary "@orders.ndjson"
+
+curl localhost:9200/products/_bulk -H content-type:application/x-ndjson --data-binary "@products.ndjson"
+
+curl localhost:9200/recipes/_bulk -H content-type:application/x-ndjson --data-binary "@recipes.ndjson"
+
+curl localhost:9200/bank/_bulk -H content-type:application/x-ndjson --data-binary "@bank.ndjson"
+
+### search ( ?pretty จัด format json ให้ดูง่ายๆ option curl ) ###
+curl "localhost:9200/banktest/_search?pretty"
+
+curl localhost:9200/banktest/_search
+
+### _cat ###
+curl localhost:9200/_cat/indices?v

@@ -1,0 +1,1 @@
+docker container run -it --rm docker.elastic.co/logstash/logstash:8.8.1
