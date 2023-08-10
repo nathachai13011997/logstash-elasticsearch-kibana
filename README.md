@@ -1,6 +1,13 @@
 # Logstash Elasticsearch Kibana
 
-In this project, practice using Logstash Elasticsearch Kibana as follows [CodeBangkok](https://www.youtube.com/watch?v=RjtIdUOpH04&t=6093s)
+In this project, practice using Logstash Elasticsearch Kibana as follows [CodeBangkok](https://www.youtube.com/@CodeBangkok)
+
+## Lesson
+
+[Elasticsearch: Get Started](https://www.youtube.com/watch?v=d2Ek-8HKdcI&t=1729s)
+[Elasticsearch: Search & Query](https://www.youtube.com/watch?v=YKr52eyWPkE)
+[Logstash: Get Started](https://www.youtube.com/watch?v=qlQePjKaHAw)
+
 
 ## Install and Run Project
 
@@ -45,3 +52,7 @@ Requires : [docker](https://www.docker.com/)
 	docker compose up
 	```
 > Note: Logstash port: 8080 and port: 8081
+
+## Credit
+
+[CodeBangkok](https://www.youtube.com/@CodeBangkok)
