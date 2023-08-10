@@ -4,9 +4,9 @@ In this project, practice using Logstash Elasticsearch Kibana as follows [CodeBa
 
 ## Lesson
 
-[Elasticsearch: Get Started](https://www.youtube.com/watch?v=d2Ek-8HKdcI&t=1729s)
-[Elasticsearch: Search & Query](https://www.youtube.com/watch?v=YKr52eyWPkE)
-[Logstash: Get Started](https://www.youtube.com/watch?v=qlQePjKaHAw)
+- [Elasticsearch: Get Started](https://www.youtube.com/watch?v=d2Ek-8HKdcI&t=1729s)
+- [Elasticsearch: Search & Query](https://www.youtube.com/watch?v=YKr52eyWPkE)
+- [Logstash: Get Started](https://www.youtube.com/watch?v=qlQePjKaHAw)
 
 
 ## Install and Run Project
