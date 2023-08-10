@@ -1,14 +1,8 @@
 version: '3.6'
-
-networks:
-  ela:
-
 services:
   logstash:
     image: docker.elastic.co/logstash/logstash:8.8.1
     container_name: logstash
-    networks:
-      - ela
     volumes:
       - "./data:/usr/share/logstash/data"
       # - "./logstash.conf:/usr/share/logstash/pipeline/logstash.conf"
